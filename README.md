@@ -14,7 +14,7 @@ A check digit algorithm, Modulus11(weight2-7)
 ### how to use
 
 ```js
-import { Modulus11 } from "https://code4fukui.github.io/Modulus11.js/Modulus11.js";
+import { Modulus11 } from "https://code4fukui.github.io/Modulus11/Modulus11.js";
 
 console.log(Modulus11.calc(18207)); // 9
 console.log(Modulus11.check(182079)); // true
@@ -35,7 +35,7 @@ import { Modulus11 } from "https://js.sabae.cc/Modulus11.js";
 
 ### sample app
 
-[Modulus11.js test](https://code4fukui.github.io/Modulus11.js/)
+[Modulus11.js test](https://code4fukui.github.io/Modulus11/)
 
 ## related
 
