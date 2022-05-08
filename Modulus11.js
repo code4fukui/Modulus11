@@ -10,11 +10,13 @@ const calc = (num) => {
       m = 2;
     }
   }
-  const d = sum % 11;
-  if (d <= 1) {
+  const d = 11 - sum % 11;
+  if (d == 11) {
+    return 1;
+  } else if (d == 10) {
     return 0;
   }
-  return 11 - d;
+  return d;
 };
 
 const check = (num) => {
