@@ -12,9 +12,9 @@ A checksums, Modulus11(weight2-7) Algorithm in JavaScript (ES module)
 ```js
 import { Modulus11 } from "https://code4fukui.github.io/Modulus11.js/Modulus11.js";
 
-console.log(Modulus11.calc(572)); // 4
-console.log(Modulus11.check(5724)); // true
-console.log(Modulus11.addCheckDigit(572)); // 5724
+console.log(Modulus11.calc(18207)); // 9
+console.log(Modulus11.check(182079)); // true
+console.log(Modulus11.addCheckDigit(18207)); // 182079
 ```
 
 
