@@ -4,7 +4,7 @@ A checksums, Modulus11(weight2-7) Algorithm in JavaScript (ES module)
 
 - [個人番号（マイナンバー）](https://www.j-lis.go.jp/data/open/cnt/3/1282/1/H2707_qa.pdf)
 - [全国地方公共団体コード](https://www.soumu.go.jp/main_content/000137948.pdf)
-- 住民票コード
+- [住民票コード](https://www.soumu.go.jp/main_content/000766944.pdf)
 - [運転免許証](https://www.npa.go.jp/laws/notification/koutuu/menkyo/menkyo19810910.pdf)
 
 ## how to use
