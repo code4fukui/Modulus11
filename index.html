@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+
+<h1>Modulus11.js test</h1>
+<input id=num placeholder="num with Modulus11 checkdigit">
+<div id=mes></div>
+
+
+<script type="module">
+//import { Modulus11 } from "https://code4fukui.github.io/Modulus11.js/Modulus11.js";
+import { Modulus11 } from "./Modulus11.js";
+
+num.onkeyup = num.onchange = () => {
+  const s = num.value.replace(/-/g, "");
+  const flg = Modulus11.check(s);
+  mes.textContent = flg ? "valid!" : "invalid...";
+  num.style.backgroundColor = flg ? "lightgreen" : "pink";
+  console.log(Modulus11.calc(s));
+};
+</script>
+
+<textarea>
+import { Modulus11 } from "https://code4fukui.github.io/Modulus11.js/Modulus11.js";
+
+num.onkeyup = num.onchange = () => {
+  const s = num.value.replace(/-/g, "");
+  const flg = Modulus11.check(s);
+  mes.textContent = flg ? "valid!" : "invalid...";
+  num.style.backgroundColor = flg ? "lightgreen" : "pink";
+  console.log(Modulus11.calc(s));
+};
+</textarea>
+
+<style>
+textarea {
+  width: 90vw;
+  height: 15em;
+  margin-top: 2em;
+}
+</style>
+
+<br>
+Lib: <a href=https://github.com/code4fukui/Modulus11.js/>Modulus11.js src on GitHub</a><br>
