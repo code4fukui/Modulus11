@@ -33,4 +33,17 @@ Deno.test("all city", async () => {
   const url = "https://code4fukui.github.io/address-japan/data/city.csv";
   const data = CSV.toJSON(await CSV.fetch(url));
   data.forEach(d => t.assert(Modulus11.check(d.全国地方公共団体コード)));
+
+  const chkdigits = [];
+  data.forEach(d => {
+    const s = d.全国地方公共団体コード;
+    chkdigits[s[s.length - 1]] = (chkdigits[s[s.length - 1]] || 0) + 1;
+  });
+  t.assertEquals(chkdigits, [
+    184, 357, 172, 168,
+    164, 179, 157, 183,
+    169, 189
+  ]);
+  //console.log(chkdigits);
+  //t.assert(chkdigits[1] / chkdigits[0] > 1.5);
 });
