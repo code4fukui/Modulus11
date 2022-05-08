@@ -27,12 +27,6 @@ console.log(Modulus11.addCheckDigit(18207)); // 182079
 deno test
 ```
 
-### shortcut
-
-```js
-import { Modulus11 } from "https://js.sabae.cc/Modulus11.js";
-```
-
 ### sample app
 
 [Modulus11.js test](https://code4fukui.github.io/Modulus11/)
