@@ -1,5 +1,7 @@
 # Modulus11
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A check digit algorithm, Modulus11(weight2-7).
 
 ## Demo
