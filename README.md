@@ -35,4 +35,4 @@ deno test
 - [Luhn.js](https://github.com/code4fukui/Luhn)
 
 ## License
-[CC0 1.0 Universal](LICENSE)
+MIT License — see [LICENSE](LICENSE).

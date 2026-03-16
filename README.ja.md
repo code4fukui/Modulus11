@@ -1,6 +1,6 @@
 # Modulus11
 
-全国地方公共団体コード、個人番号（マイナンバー）、住民票コード、運転免許証などで使用される、Modulus11(weight2-7)チェックディジット アルゴリズムを提供するJavaScriptライブラリです。
+全国地方公共団体コード、個人番号（マイナンバー）、住民票コード、運転免許証などで使用される、Modulus11(weight2-7)チェックディジット アルゴリズムを提供する JavaScript ライブラリです。
 
 ## デモ
 [Modulus11.js test](https://code4fukui.github.io/Modulus11/)
